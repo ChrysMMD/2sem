@@ -91,19 +91,6 @@ h6 {
 }
 */
 
-/* ---2. Import af fonts ---*/
-/* --- https://fonts.google.com/specimen/Abril+Fatface ---*/
-@font-face {
-  font-family: "AbrilFatface";
-  src: url(/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
-}
-
-/* --- https://fonts.google.com/specimen/Amiko ---*/
-@font-face {
-  font-family: "Amiko";
-  src: url(/fonts/Amiko/Amiko-Regular.ttf);
-}
-
 /* ---3. Definition af farver ---*/
 
 html {
@@ -119,7 +106,7 @@ html {
 h1,
 h2,
 h3 {
-  font-family: AbrilFatface;
+  font-family: Merriweather;
   font-size: 40px;
   color: var(--brown);
   /* --- OBS: dobbelttjek om dette clasher med ovenstående reset, hvor alle p og h får "overflow-wrap: break-word;" ---*/
@@ -130,7 +117,8 @@ h2 {
 }
 
 p {
-  font-family: Amiko;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   color: var(--brown);
 }
